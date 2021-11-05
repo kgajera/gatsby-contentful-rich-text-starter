@@ -1,54 +1,42 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+  <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby Contentful Starter
 </h1>
 
-## 🚀 Quick start
+A Gatsby starter using [Contentful](https://www.contentful.com) (CMS) and [Tailwind](https://tailwindcss.com/) (CSS framework). In particular, this starter leverages Contentful's [Rich Text](https://www.contentful.com/developers/docs/concepts/rich-text/) field to render content.
 
-1.  **Create a Gatsby site.**
+## Getting Started
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+1. Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the gatsby-contentful-starter.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+   ```shell
+   # create a new Gatsby site using the gatsby-contentful-starter
+   gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-starter
+   ```
 
-2.  **Start developing.**
+1. Navigate into your new site’s directory:
 
-    Navigate into your new site’s directory and start it up.
+   ```shell
+   cd my-contentful-starter/
+   ```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+1. Create a new [environment file](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/), `.env.development`, with the following contents:
 
-3.  **Open the code and start customizing!**
+   ```
+   CONTENTFUL_ACCESS_TOKEN=
+   CONTENTFUL_SPACE_ID=
+   ```
 
-    Your site is now running at http://localhost:8000!
+1. Run `yarn contentful-import` to import content types
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+1. Run `yarn develop` to start the development server. Your site is now running at `http://localhost:8000`!
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
+## Deploy
 
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-starter)
