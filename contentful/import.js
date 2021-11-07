@@ -1,11 +1,13 @@
 const contentfulImport = require('contentful-import');
 
-const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN;
+require('dotenv').config({ path: '.env.development' });
+
+const accessToken = process.env.CONTENTFUL_MANAGEMENT_TOKEN;
 const spaceId = process.env.CONTENTFUL_SPACE_ID;
 
 if (!accessToken) {
   throw new Error(
-    'CONTENTFUL_ACCESS_TOKEN environment variable must be defined'
+    'CONTENTFUL_MANAGEMENT_TOKEN environment variable must be defined'
   );
 }
 if (!spaceId) {
@@ -13,7 +15,7 @@ if (!spaceId) {
 }
 
 const options = {
-  contentFile: './contentful-export.json',
+  contentFile: './contentful/export.json',
   spaceId,
   managementToken: accessToken,
 };

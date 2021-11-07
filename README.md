@@ -27,8 +27,9 @@ A Gatsby starter using [Contentful](https://www.contentful.com) (CMS) and [Tailw
 1. Create a new [environment file](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/), `.env.development`, with the following contents:
 
    ```
-   CONTENTFUL_ACCESS_TOKEN=
    CONTENTFUL_SPACE_ID=
+   CONTENTFUL_DELIVERY_TOKEN=
+   CONTENTFUL_MANAGEMENT_TOKEN=
    ```
 
 1. Run `yarn contentful-import` to import content types
