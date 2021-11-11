@@ -28,7 +28,7 @@ A Gatsby starter using [Contentful](https://www.contentful.com) (CMS) and [Tailw
 
    ```
    CONTENTFUL_SPACE_ID=
-   CONTENTFUL_DELIVERY_TOKEN=
+   CONTENTFUL_ACCESS_TOKEN=
    CONTENTFUL_MANAGEMENT_TOKEN=
    ```
 
