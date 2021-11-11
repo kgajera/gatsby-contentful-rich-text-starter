@@ -11,8 +11,8 @@ const BlogPostTemplate = ({ data }) => {
         title={data.contentfulBlogPost.title}
         description={data.contentfulBlogPost.excerpt.excerpt}
       />
-      <h1 className="text-4xl">{data.contentfulBlogPost.title}</h1>
-      <RichText document={data.contentfulBlogPost.content.raw} />
+      <h1 className="mb-4 text-4xl">{data.contentfulBlogPost.title}</h1>
+      <RichText document={data.contentfulBlogPost.content} />
     </Layout>
   );
 };
@@ -24,10 +24,20 @@ export const query = graphql`
     contentfulBlogPost(slug: { eq: $slug }) {
       content {
         raw
+        references {
+          __typename
+          ... on ContentfulAsset {
+            contentful_id
+            file {
+              url
+            }
+          }
+        }
       }
       excerpt {
         excerpt
       }
+      id
       title
     }
   }

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import { renderRichText } from 'gatsby-source-contentful/rich-text';
 import { BLOCKS, INLINES, MARKS } from '@contentful/rich-text-types';
 
 const options = {
@@ -36,6 +36,22 @@ const options = {
     [BLOCKS.UL_LIST]: (node, children) => (
       <ul className="list-disc pl-10 whitespace-pre">{children}</ul>
     ),
+    [BLOCKS.EMBEDDED_ENTRY]: (node) => {
+      const target = node.data.target;
+      switch (target.__typename) {
+        case 'ContentfulImage':
+          return (
+            <a href={target.url}>
+              <img src={target.image.file.url} alt={target.title} />
+            </a>
+          );
+        default:
+          return null;
+      }
+    },
+    [BLOCKS.EMBEDDED_ASSET]: (node) => (
+      <img src={node.data.target?.file.url} alt={node.data.target?.title} />
+    ),
     [INLINES.HYPERLINK]: (node, children) => (
       <a className="text-blue-500 underline" href={node.data.uri}>
         {children}
@@ -46,12 +62,7 @@ const options = {
 
 const RichText = ({ document, renderOptions }) => {
   return (
-    <>
-      {documentToReactComponents(
-        JSON.parse(document),
-        Object.assign({}, options, renderOptions)
-      )}
-    </>
+    <>{renderRichText(document, Object.assign({}, options, renderOptions))}</>
   );
 };
 

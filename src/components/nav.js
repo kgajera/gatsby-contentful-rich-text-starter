@@ -1,21 +1,23 @@
 import * as React from 'react';
-import { Link, graphql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import Container from './container';
+import Link from './link';
 
 const Navigation = () => {
   const { contentfulNavigation } = useStaticQuery(graphql`
     query {
-      contentfulNavigation(slug: {eq: "header-navigation"}) {
+      contentfulNavigation(slug: { eq: "header-navigation" }) {
         navigationItems {
+          __typename
           ... on ContentfulNavigationItem {
-            id
-            slug
+            contentful_id
             title
+            url
           }
           ... on ContentfulPage {
-            id
-            title
+            contentful_id
             slug
+            title
           }
         }
       }
@@ -42,7 +44,10 @@ const Navigation = () => {
       <ul>
         {contentfulNavigation.navigationItems.map((item, i) => (
           <li key={i} className="inline-block px-3">
-            <Link className="text-blue-600" to={item.slug}>
+            <Link
+              className="text-blue-600"
+              to={item.slug ? `/${item.slug}` : item.url}
+            >
               {item.title}
             </Link>
           </li>

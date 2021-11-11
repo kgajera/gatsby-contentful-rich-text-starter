@@ -7,8 +7,8 @@ const Page = ({ contentfulPage }) => {
   return (
     <Layout>
       <Seo title={contentfulPage.title} />
-      <h1 className="text-4xl">{contentfulPage.title}</h1>
-      <RichText document={contentfulPage.content.raw} />
+      <h1 className="mb-4 text-4xl">{contentfulPage.title}</h1>
+      <RichText document={contentfulPage.content} />
     </Layout>
   );
 };
