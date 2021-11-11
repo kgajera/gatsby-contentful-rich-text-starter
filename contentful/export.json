@@ -6,13 +6,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "vcdjjbl2zaex"
+            "id": "8a1mjxzik2le"
           }
         },
         "id": "blogPost",
         "type": "ContentType",
-        "createdAt": "2020-04-29T00:58:59.048Z",
-        "updatedAt": "2021-10-31T14:03:27.683Z",
+        "createdAt": "2021-11-06T01:02:44.248Z",
+        "updatedAt": "2021-11-06T18:47:15.075Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,36 +20,36 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2021-10-31T14:03:27.683Z",
-        "firstPublishedAt": "2020-04-29T00:58:59.231Z",
+        "publishedVersion": 15,
+        "publishedAt": "2021-11-06T18:47:15.075Z",
+        "firstPublishedAt": "2021-11-06T01:02:44.554Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 8,
+        "version": 16,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         }
       },
       "displayField": "title",
       "name": "Blog Post",
-      "description": "",
+      "description": "A blog post",
       "fields": [
         {
           "id": "title",
@@ -57,7 +57,8 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -67,7 +68,11 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -79,7 +84,8 @@
           "required": true,
           "validations": [
             {
-              "nodes": {}
+              "nodes": {
+              }
             },
             {
               "enabledNodeTypes": [
@@ -103,7 +109,12 @@
               "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
             },
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             }
           ],
@@ -126,31 +137,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "featuredImage",
-          "name": "Featured Image",
-          "type": "Link",
-          "localized": false,
-          "required": true,
-          "validations": [],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
-        },
-        {
-          "id": "keywords",
-          "name": "Keywords",
-          "type": "Array",
-          "localized": false,
-          "required": true,
-          "validations": [],
-          "disabled": false,
-          "omitted": false,
-          "items": {
-            "type": "Symbol",
-            "validations": []
-          }
         }
       ]
     },
@@ -160,13 +146,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "vcdjjbl2zaex"
+            "id": "8a1mjxzik2le"
           }
         },
         "id": "page",
         "type": "ContentType",
-        "createdAt": "2021-10-31T14:03:03.370Z",
-        "updatedAt": "2021-10-31T14:03:03.688Z",
+        "createdAt": "2021-11-06T01:02:44.288Z",
+        "updatedAt": "2021-11-06T18:47:03.229Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -174,36 +160,36 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2021-10-31T14:03:03.688Z",
-        "firstPublishedAt": "2021-10-31T14:03:03.688Z",
+        "publishedVersion": 5,
+        "publishedAt": "2021-11-06T18:47:03.229Z",
+        "firstPublishedAt": "2021-11-06T01:02:45.010Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         }
       },
       "displayField": "title",
       "name": "Page",
-      "description": "",
+      "description": "A page",
       "fields": [
         {
           "id": "title",
@@ -211,7 +197,8 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -221,7 +208,11 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -233,7 +224,12 @@
           "required": true,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -258,8 +254,277 @@
               "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
             },
             {
-              "nodes": {}
+              "nodes": {
+              }
             }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "image",
+        "type": "ContentType",
+        "createdAt": "2021-11-06T13:24:47.274Z",
+        "updatedAt": "2021-11-06T18:47:56.987Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-11-06T18:47:56.987Z",
+        "firstPublishedAt": "2021-11-06T13:24:47.481Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Image",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "url",
+          "name": "URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "navigation",
+        "type": "ContentType",
+        "createdAt": "2021-11-06T18:44:00.144Z",
+        "updatedAt": "2021-11-07T14:12:27.415Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2021-11-07T14:12:27.415Z",
+        "firstPublishedAt": "2021-11-06T18:44:00.379Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Navigation",
+      "description": "A navigation menu",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "navigationItems",
+          "name": "Navigation Items",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "navigationItem",
+                  "page"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "navigationItem",
+        "type": "ContentType",
+        "createdAt": "2021-11-06T18:52:07.955Z",
+        "updatedAt": "2021-11-11T01:09:21.353Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2021-11-11T01:09:21.353Z",
+        "firstPublishedAt": "2021-11-06T18:52:08.078Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Navigation Item",
+      "description": "A custom navigation item",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "url",
+          "name": "URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
           ],
           "disabled": false,
           "omitted": false
@@ -267,7 +532,8 @@
       ]
     }
   ],
-  "tags": [],
+  "tags": [
+  ],
   "editorInterfaces": [
     {
       "sys": {
@@ -275,24 +541,24 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "vcdjjbl2zaex",
+            "id": "8a1mjxzik2le",
             "type": "Link",
             "linkType": "Space"
           }
         },
-        "version": 10,
-        "createdAt": "2020-04-29T00:58:59.310Z",
+        "version": 16,
+        "createdAt": "2021-11-06T01:02:44.743Z",
         "createdBy": {
           "sys": {
-            "id": "0Zun4zv0YxXRe2QhNagYtD",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
             "type": "Link",
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-10-31T14:03:28.044Z",
+        "updatedAt": "2021-11-06T18:47:15.505Z",
         "updatedBy": {
           "sys": {
-            "id": "0Zun4zv0YxXRe2QhNagYtD",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
             "type": "Link",
             "linkType": "User"
           }
@@ -332,16 +598,6 @@
           "fieldId": "excerpt",
           "widgetId": "multipleLine",
           "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "featuredImage",
-          "widgetId": "assetLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "keywords",
-          "widgetId": "tagEditor",
-          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -351,24 +607,24 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "vcdjjbl2zaex",
+            "id": "8a1mjxzik2le",
             "type": "Link",
             "linkType": "Space"
           }
         },
-        "version": 2,
-        "createdAt": "2021-10-31T14:03:03.821Z",
+        "version": 6,
+        "createdAt": "2021-11-06T01:02:45.098Z",
         "createdBy": {
           "sys": {
-            "id": "0Zun4zv0YxXRe2QhNagYtD",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
             "type": "Link",
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-10-31T14:03:04.243Z",
+        "updatedAt": "2021-11-06T18:47:03.572Z",
         "updatedBy": {
           "sys": {
-            "id": "0Zun4zv0YxXRe2QhNagYtD",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
             "type": "Link",
             "linkType": "User"
           }
@@ -405,231 +661,207 @@
           "widgetNamespace": "builtin"
         }
       ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "8a1mjxzik2le",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-11-06T13:24:47.625Z",
+        "createdBy": {
+          "sys": {
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-11-06T18:47:57.333Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "image",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "url",
+          "settings": {
+            "helpText": "Image will link to this URL when embedded in a Page or Blog Post"
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "8a1mjxzik2le",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 14,
+        "createdAt": "2021-11-06T18:44:00.507Z",
+        "createdBy": {
+          "sys": {
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-11-07T14:12:27.843Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "navigation",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "navigationItems",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "8a1mjxzik2le",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 14,
+        "createdAt": "2021-11-06T18:52:08.157Z",
+        "createdBy": {
+          "sys": {
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-11-11T01:09:21.815Z",
+        "updatedBy": {
+          "sys": {
+            "id": "4BSfn6CbfoEaSR9TFrRLqS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "navigationItem",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "url",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
     }
   ],
   "entries": [
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "vcdjjbl2zaex"
-          }
-        },
-        "id": "7nA88hI0Q2HFb65eprcXgf",
-        "type": "Entry",
-        "createdAt": "2020-04-29T00:59:32.863Z",
-        "updatedAt": "2021-10-31T01:40:43.957Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 14,
-        "publishedAt": "2021-10-31T01:40:43.957Z",
-        "firstPublishedAt": "2020-04-29T01:00:43.296Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
-          }
-        },
-        "publishedCounter": 4,
-        "version": 15,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogPost"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Post 1"
-        },
-        "slug": {
-          "en-US": "post-1"
-        },
-        "content": {
-          "en-US": {
-            "data": {},
-            "content": [
-              {
-                "data": {},
-                "content": [
-                  {
-                    "data": {},
-                    "marks": [
-                      {
-                        "type": "bold"
-                      }
-                    ],
-                    "value": "Lorem ipsum",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {},
-                    "marks": [],
-                    "value": " dolor sit amet, ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "http://google.com"
-                    },
-                    "content": [
-                      {
-                        "data": {},
-                        "marks": [],
-                        "value": "consectetur",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {},
-                    "marks": [],
-                    "value": " adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {},
-                    "marks": [
-                      {
-                        "type": "underline"
-                      }
-                    ],
-                    "value": "commodo",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {},
-                    "marks": [],
-                    "value": " consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {},
-                "content": [],
-                "nodeType": "hr"
-              },
-              {
-                "data": {},
-                "content": [
-                  {
-                    "data": {},
-                    "marks": [
-                      {
-                        "type": "bold"
-                      }
-                    ],
-                    "value": "Lorem ipsum",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {},
-                    "marks": [],
-                    "value": " dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {},
-                    "marks": [
-                      {
-                        "type": "code"
-                      }
-                    ],
-                    "value": "ex ea commodo conse ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {},
-                    "marks": [],
-                    "value": "quat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {},
-                    "marks": [
-                      {
-                        "type": "italic"
-                      }
-                    ],
-                    "value": "fugiat",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {},
-                    "marks": [],
-                    "value": " nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              }
-            ],
-            "nodeType": "document"
-          }
-        },
-        "featuredImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "670sJuWlXnR9ycKRZy7doU"
-            }
-          }
-        },
-        "keywords": {
-          "en-US": ["lorem", "ipsum"]
-        },
-        "excerpt": {
-          "en-US": "prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": []
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "vcdjjbl2zaex"
+            "id": "8a1mjxzik2le"
           }
         },
         "id": "1o8IbXaG2LJtQAjSF8xZ90",
         "type": "Entry",
-        "createdAt": "2020-04-29T01:00:46.299Z",
-        "updatedAt": "2021-10-31T01:33:01.734Z",
+        "createdAt": "2021-11-06T01:02:49.541Z",
+        "updatedAt": "2021-11-06T14:54:45.101Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -637,30 +869,30 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 14,
-        "publishedAt": "2021-10-31T01:33:01.734Z",
-        "firstPublishedAt": "2020-04-29T01:02:14.689Z",
+        "publishedVersion": 11,
+        "publishedAt": "2021-11-06T14:54:45.101Z",
+        "firstPublishedAt": "2021-11-06T01:02:49.984Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "publishedCounter": 2,
-        "version": 15,
+        "publishedCounter": 3,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
         "contentType": {
@@ -680,105 +912,199 @@
         },
         "content": {
           "en-US": {
-            "data": {},
+            "nodeType": "document",
+            "data": {
+            },
             "content": [
               {
-                "data": {},
-                "content": [
-                  {
-                    "data": {},
-                    "marks": [],
-                    "value": "Lorem ipsum dolor sit amet, cu vis velit postea euripidis. Habeo graeci no has, legere oportere gubergren id sed, nec at quas facilisi vituperata. Mutat saperet ius ex, ei aeque apeirian quo, ea vim augue insolens vulputate. Per nullam gubergren ut, inimicus assueverit interesset has ut. Ei qui erant molestie delicata, tation melius vis ex, id dicta adipiscing incorrupte mea. Pro veri melius consetetur an.",
-                    "nodeType": "text"
+                "nodeType": "embedded-asset-block",
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "7hcnQ0BlWqETJC7HY1MBHJ",
+                      "type": "Link",
+                      "linkType": "Asset"
+                    }
                   }
-                ],
-                "nodeType": "paragraph"
+                },
+                "content": [
+                ]
               },
               {
-                "data": {},
+                "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
-                    "data": {},
-                    "marks": [],
-                    "value": "Per habeo vocent eruditi an, dolorem admodum ius at, assentior vituperata intellegebat duo ex. Eu vitae docendi vel, in appetere corrumpit elaboraret nam. Quas recteque ea nam, nobis mediocrem suavitate qui cu, eos vitae legere ad. Id vel ludus appareat expetendis, in mel audire fastidii. Habeo doming vel ei, eam dicunt viderer assentior ea.",
-                    "nodeType": "text"
+                    "nodeType": "text",
+                    "value": "Lorem ipsum dolor sit amet, vix ea summo ludus audiam. Nam fugit malorum ex, velit liber fierent pro ea. At cum putent consequat, quando detraxit singulis vel id. Ut sumo definitionem est, vel an sumo appareat. Cu veniam populo suavitate qui.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
-                ],
-                "nodeType": "paragraph"
+                ]
               },
               {
-                "data": {},
+                "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
-                    "data": {},
-                    "marks": [],
-                    "value": "Integre laboramus eos cu, tale atqui quando mei te, nec causae disputationi at. Eum dicam expetenda ut, dolorem facilis definitionem eu eam. Inciderint definitiones duo ei, eum copiosae indoctum in, no vix volumus fastidii intellegam. Eu omnes bonorum tibique mel, nec tamquam docendi eu. Natum maiestatis mei ad, cu usu dicunt audiam propriae.",
-                    "nodeType": "text"
+                    "nodeType": "text",
+                    "value": "Ferri dissentiet eos eu, libris adolescens te est. Vel eirmod legendos ei, ex pri tamquam democritum consectetuer. Pro ad vide verear. Et vis quas iudico persius, te est labore omittam voluptatum. Case diceret an ius, no deleniti suscipit eam. Vel alterum dolorem ea. Nibh vidisse pro an.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
-                ],
-                "nodeType": "paragraph"
+                ]
               },
               {
-                "data": {},
+                "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
-                    "data": {},
-                    "marks": [],
-                    "value": "Vivendo invidunt ei mel. Pri mazim postulant ex, has nonumes detraxit ut, et sea solum altera erroribus. Te timeam percipit pri. Id denique argumentum sed, has decore deseruisse in, vel cu percipit voluptaria consectetuer.",
-                    "nodeType": "text"
+                    "nodeType": "text",
+                    "value": "At sed idque omnesque, labore possit explicari pri no, eos mazim possim te. Ut officiis perpetua eos, ne mel salutatus quaerendum deterruisset, tota viris tantas eum ad. Sumo melius voluptatum eos eu. Quaeque commune at pri, no novum ullamcorper nam, movet vulputate sit et. Phaedrum delicata cu nam. Accusata laboramus sed ad. Vix id placerat euripidis.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
-                ],
-                "nodeType": "paragraph"
+                ]
               },
               {
-                "data": {},
+                "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
-                    "data": {},
-                    "marks": [],
-                    "value": "Ius mucius prodesset et. Delectus invenire accommodare vis eu, id vix quidam aperiam. No eam patrioque concludaturque, cu dico alterum admodum vim. Alterum singulis convenire qui ad, id minim singulis conclusionemque sed.",
-                    "nodeType": "text"
+                    "nodeType": "text",
+                    "value": "Ne eius rebum recusabo mea, mel stet impedit ea. Duo natum impetus tacimates cu, mel enim accusamus constituto in. Eu elit praesent interpretaris nam. Quas numquam ei his. At mea eloquentiam philosophia.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
-                ],
-                "nodeType": "paragraph"
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Et graece delenit repudiare usu, vel ut iusto ubique maluisset. Ne modus erroribus comprehensam nam, mutat voluptatibus definitionem sea ei. Sumo debitis eam eu. Vel vitae alienum cu, doming patrioque qui ea, iracundia constituto intellegebat an cum. No sint dicit nec, wisi erant te ius, ea nam vidisse voluptaria.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Usu te ullum error movet, appetere nominati sensibus ius at. Et duo debet intellegebat. Vix eu quem minimum, sit nisl indoctum ad, pro hinc quot ferri at. Pro an saperet pertinacia, choro iudico nonumes in vim, ei porro veritus ius. Te pro decore recteque, putent fastidii albucius has ea.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Cum veniam doming consequat ex, erant lobortis voluptatibus eos no. Mea eripuit accommodare eu, mea ut lorem fabellas accommodare, ridens recteque comprehensam te mea. Cu vim nominati sensibus scriptorem, vel an viderer fastidii. Vim ludus deterruisset an. Sea id munere deserunt, no ignota tibique nec.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Et sale accusata nec, et sit porro delectus, usu ex tacimates voluptatum disputando. Mel ut bonorum contentiones, quando semper iudicabit ut vel. Maiestatis voluptaria sea ei, per ne partem insolens, cu cum justo iuvaret aliquam. At mundi mediocrem ius, fierent nominati deseruisse nam an. At vel elit nulla fabulas.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Populo adipiscing mea ex, no pro errem omnes. Ne ludus fabulas pri, usu an alienum invenire, eam ad prompta scripserit persequeris. Pri ei legere possim, id dolorum laboramus theophrastus pro. Sit te reque facer congue.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Constituam accommodare vel eu, natum appetere iracundia per ne. Eum cu sonet aliquip lucilius, ius ex menandri mnesarchum, in justo imperdiet scriptorem sit. Elit laudem cu qui. At quaeque accumsan voluptatum sed, et vocibus expetendis eos. Duo an stet putant voluptatibus, in labitur dignissim voluptatibus eum, quo splendide expetendis interpretaris cu.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
               }
-            ],
-            "nodeType": "document"
+            ]
           }
-        },
-        "featuredImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "670sJuWlXnR9ycKRZy7doU"
-            }
-          }
-        },
-        "keywords": {
-          "en-US": ["ipsum", "dolor", "sit"]
         },
         "excerpt": {
-          "en-US": " magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat"
+          "en-US": "Lorem ipsum dolor sit amet, vix ea summo ludus audiam. Nam fugit malorum ex, velit liber fierent pro ea. At cum putent consequat, quando detraxit singulis vel id. Ut sumo definitionem est, vel an sumo appareat."
         }
       }
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "vcdjjbl2zaex"
+            "id": "8a1mjxzik2le"
           }
         },
-        "id": "2i3FcrQg1TQGAajvavYxyo",
+        "id": "7nA88hI0Q2HFb65eprcXgf",
         "type": "Entry",
-        "createdAt": "2021-10-31T14:04:00.064Z",
-        "updatedAt": "2021-11-02T02:19:08.229Z",
+        "createdAt": "2021-11-06T01:02:49.560Z",
+        "updatedAt": "2021-11-06T14:45:00.723Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -786,30 +1112,273 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 125,
-        "publishedAt": "2021-11-02T02:19:08.229Z",
-        "firstPublishedAt": "2021-10-31T14:04:40.404Z",
+        "publishedVersion": 15,
+        "publishedAt": "2021-11-06T14:45:00.723Z",
+        "firstPublishedAt": "2021-11-06T01:02:49.732Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "publishedCounter": 33,
-        "version": 126,
+        "publishedCounter": 4,
+        "version": 16,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Post 1"
+        },
+        "slug": {
+          "en-US": "post-1"
+        },
+        "content": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "embedded-asset-block",
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "7y3QLJ3ZsfLwSmQF5YlhD9",
+                      "type": "Link",
+                      "linkType": "Asset"
+                    }
+                  }
+                },
+                "content": [
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Lorem ipsum dolor sit amet, qui at ullum graecis. Vis assentior scriptorem an, id audire appetere mei. Id eos ridens aliquando interesset. Eam an decore perpetua, et vel viderer appetere, sed an tota etiam phaedrum. Odio summo ea eos, sed omittam adipiscing ad, assum facilisis an per.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "In quis wisi contentiones ius, sed mazim dolore in, ex quo noster sadipscing. In usu malis doming, verear corpora principes ad per. An paulo explicari hendrerit nam. Vel at ullum reformidans, mei illud ancillae fabellas in.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "No nam noluisse appareat detraxit. Constituto elaboraret eum eu, aeterno deserunt accusata ne per. At audire nonumes vix, ut ius agam tractatos. Adhuc atomorum deterruisset ex vix, te vide utinam labitur sit.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Libris urbanitas ei eum, at denique accusam mei. His an similique definitiones. Vis eu sale ceteros. Minim qualisque deseruisse te usu, ei mei ignota corpora, eum fuisset philosophia ad.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Id ullum labores eos, feugait epicurei expetenda an duo. Per ex summo deleniti consequuntur. Ea alterum tincidunt est, nisl mediocrem cum cu, cum eius consequat ei. No sea aeque possit instructior. Cum facete prompta honestatis te, sit eu modo nominavi postulant. Sed ne modus electram erroribus, alterum lucilius has in. Vide noster detraxit nam et, eu ludus feugiat vix.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Sed movet saepe comprehensam no, animal persequeris eam eu. Sed eu dolore consequat, has cu sonet eligendi argumentum. Ut nec etiam conceptam voluptatibus, vel postulant facilisis eu, sed ei nibh viderer. Sed dolore ocurreret cu, in cum persequeris deterruisset, melius torquatos efficiendi te pri. Tollit scaevola facilisi qui ea, cu sanctus periculis vis. Qui ei consequat percipitur, eam ea eligendi voluptua nominati.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Mel ex aperiri accusamus theophrastus, in quo enim mundi impedit. Soleat maiorum vel id. Eam ut incorrupte instructior. Sea soluta pertinax intellegat in, nec ne noster everti scaevola. Te sed mundi quaeque, eu mel menandri assueverit.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Ignota epicurei mediocrem vix at. Vis aliquid delicatissimi ne. Modo imperdiet ne has, ius audiam albucius in. Tincidunt efficiendi est in. Eos utinam accusam mediocritatem id.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Cetero atomorum accusamus te vix, id eam vidisse deseruisse inciderint, expetenda consetetur consequuntur pri at. Ea eos nonumes pericula, nam ad insolens lobortis reformidans, volumus liberavisse necessitatibus te nam. Vel ei verear erroribus consectetuer, mel eu mazim habemus dissentiet, tempor causae iracundia usu at. Dicant nullam eu qui, no ius cetero alterum, erat graeco discere pri cu. Ius tota bonorum voluptaria cu.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Cum percipit mediocrem no, et erat clita conclusionemque cum. Et eam sonet voluptua, quas delenit ex duo. Vix tamquam singulis cu, est id aperiam vituperatoribus, ei inani nobis has. Nec harum diceret fuisset ei. Vim no zril ponderum hendrerit. Modo suscipiantur delicatissimi per cu, mel ea brute invenire.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "excerpt": {
+          "en-US": "Lorem ipsum dolor sit amet, qui at ullum graecis. Vis assentior scriptorem an, id audire appetere mei. Id eos ridens aliquando interesset. Eam an decore perpetua, et vel viderer appetere, sed an tota etiam phaedrum."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "2i3FcrQg1TQGAajvavYxyo",
+        "type": "Entry",
+        "createdAt": "2021-11-06T01:02:49.563Z",
+        "updatedAt": "2021-11-08T15:39:00.203Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 28,
+        "publishedAt": "2021-11-08T15:39:00.203Z",
+        "firstPublishedAt": "2021-11-06T01:02:50.239Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 13,
+        "version": 29,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
         "contentType": {
@@ -830,17 +1399,21 @@
         "content": {
           "en-US": {
             "nodeType": "document",
-            "data": {},
+            "data": {
+            },
             "content": [
               {
                 "nodeType": "paragraph",
-                "data": {},
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
                     "value": "A Gatsby starter using ",
-                    "marks": [],
-                    "data": {}
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   },
                   {
                     "nodeType": "hyperlink",
@@ -851,16 +1424,20 @@
                       {
                         "nodeType": "text",
                         "value": "Contentful",
-                        "marks": [],
-                        "data": {}
+                        "marks": [
+                        ],
+                        "data": {
+                        }
                       }
                     ]
                   },
                   {
                     "nodeType": "text",
                     "value": " and ",
-                    "marks": [],
-                    "data": {}
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   },
                   {
                     "nodeType": "hyperlink",
@@ -871,48 +1448,92 @@
                       {
                         "nodeType": "text",
                         "value": "Tailwind",
-                        "marks": [],
-                        "data": {}
+                        "marks": [
+                        ],
+                        "data": {
+                        }
                       }
                     ]
                   },
                   {
                     "nodeType": "text",
-                    "value": ".",
-                    "marks": [],
-                    "data": {}
+                    "value": ". ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "In particular, this starter leverages Contentful's ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/concepts/rich-text/"
+                    },
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "Rich Text",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " field to render content.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
                 ]
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
                     "value": "Getting Started",
-                    "marks": [],
-                    "data": {}
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
                 ]
               },
               {
                 "nodeType": "ordered-list",
-                "data": {},
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "list-item",
-                    "data": {},
+                    "data": {
+                    },
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
+                        "data": {
+                        },
                         "content": [
                           {
                             "nodeType": "text",
                             "value": "Use the Gatsby CLI (",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "hyperlink",
@@ -923,16 +1544,20 @@
                               {
                                 "nodeType": "text",
                                 "value": "install instructions",
-                                "marks": [],
-                                "data": {}
+                                "marks": [
+                                ],
+                                "data": {
+                                }
                               }
                             ]
                           },
                           {
                             "nodeType": "text",
                             "value": ") to create a new site, specifying the gatsby-contentful-starter:\n",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
@@ -942,7 +1567,8 @@
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "data": {
+                            }
                           }
                         ]
                       }
@@ -950,17 +1576,21 @@
                   },
                   {
                     "nodeType": "list-item",
-                    "data": {},
+                    "data": {
+                    },
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
+                        "data": {
+                        },
                         "content": [
                           {
                             "nodeType": "text",
                             "value": "Navigate into your new site's directory:\n",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
@@ -970,7 +1600,8 @@
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "data": {
+                            }
                           }
                         ]
                       }
@@ -978,17 +1609,21 @@
                   },
                   {
                     "nodeType": "list-item",
-                    "data": {},
+                    "data": {
+                    },
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
+                        "data": {
+                        },
                         "content": [
                           {
                             "nodeType": "text",
                             "value": "Create a new ",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "hyperlink",
@@ -999,16 +1634,20 @@
                               {
                                 "nodeType": "text",
                                 "value": "environment file",
-                                "marks": [],
-                                "data": {}
+                                "marks": [
+                                ],
+                                "data": {
+                                }
                               }
                             ]
                           },
                           {
                             "nodeType": "text",
                             "value": ", ",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
@@ -1018,23 +1657,27 @@
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
                             "value": ", with the following contents:\n",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
-                            "value": "CONTENTFUL_ACCESS_TOKEN=\nCONTENTFUL_SPACE_ID=",
+                            "value": "CONTENTFUL_SPACE_ID=\nCONTENTFUL_DELIVERY_TOKEN=\nCONTENTFUL_MANAGEMENT_TOKEN=",
                             "marks": [
                               {
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "data": {
+                            }
                           }
                         ]
                       }
@@ -1042,17 +1685,21 @@
                   },
                   {
                     "nodeType": "list-item",
-                    "data": {},
+                    "data": {
+                    },
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
+                        "data": {
+                        },
                         "content": [
                           {
                             "nodeType": "text",
                             "value": "Run ",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
@@ -1062,13 +1709,16 @@
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
                             "value": " to import content types",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           }
                         ]
                       }
@@ -1076,17 +1726,21 @@
                   },
                   {
                     "nodeType": "list-item",
-                    "data": {},
+                    "data": {
+                    },
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
+                        "data": {
+                        },
                         "content": [
                           {
                             "nodeType": "text",
                             "value": "Run ",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
@@ -1096,13 +1750,16 @@
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
                             "value": " to start the development server. Your site is now running at ",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
@@ -1112,13 +1769,16 @@
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "data": {
+                            }
                           },
                           {
                             "nodeType": "text",
                             "value": "!",
-                            "marks": [],
-                            "data": {}
+                            "marks": [
+                            ],
+                            "data": {
+                            }
                           }
                         ]
                       }
@@ -1128,25 +1788,31 @@
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
                     "value": "Deploy",
-                    "marks": [],
-                    "data": {}
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
                 ]
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "Deploy this starter with one click on Gatsby Cloud: ",
-                    "marks": [],
-                    "data": {}
+                    "value": "Deploy this starter with one click on Gatsby Cloud:",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   },
                   {
                     "nodeType": "hyperlink",
@@ -1156,17 +1822,50 @@
                     "content": [
                       {
                         "nodeType": "text",
-                        "value": "Deploy!",
-                        "marks": [],
-                        "data": {}
+                        "value": "",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
                       }
                     ]
                   },
                   {
                     "nodeType": "text",
                     "value": "",
-                    "marks": [],
-                    "data": {}
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "embedded-entry-block",
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "1mm5yx2nn9DNkDoNJwHorI",
+                      "type": "Link",
+                      "linkType": "Entry"
+                    }
+                  }
+                },
+                "content": [
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
                 ]
               }
@@ -1174,25 +1873,24 @@
           }
         }
       }
-    }
-  ],
-  "assets": [
+    },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "vcdjjbl2zaex"
+            "id": "8a1mjxzik2le"
           }
         },
-        "id": "670sJuWlXnR9ycKRZy7doU",
-        "type": "Asset",
-        "createdAt": "2020-04-29T00:59:52.328Z",
-        "updatedAt": "2020-04-29T01:00:22.773Z",
+        "id": "1mm5yx2nn9DNkDoNJwHorI",
+        "type": "Entry",
+        "createdAt": "2021-11-06T13:25:09.370Z",
+        "updatedAt": "2021-11-06T13:25:44.956Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1200,49 +1898,871 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 7,
-        "publishedAt": "2020-04-29T01:00:22.773Z",
-        "firstPublishedAt": "2020-04-29T01:00:22.773Z",
+        "publishedVersion": 4,
+        "publishedAt": "2021-11-06T13:25:44.956Z",
+        "firstPublishedAt": "2021-11-06T13:25:44.956Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
         "publishedCounter": 1,
-        "version": 8,
+        "version": 5,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "image"
+          }
+        }
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5HqKg33dF8t2whklExV1Uo"
+            }
+          }
+        },
+        "url": {
+          "en-US": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-starter"
+        },
+        "title": {
+          "en-US": "Deploy Now!"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "3vI5PGgJopJvyQiKNVqIEO",
+        "type": "Entry",
+        "createdAt": "2021-11-06T13:51:11.320Z",
+        "updatedAt": "2021-11-07T14:14:46.881Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 179,
+        "publishedAt": "2021-11-07T14:14:46.881Z",
+        "firstPublishedAt": "2021-11-06T13:51:53.113Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 22,
+        "version": 180,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
           }
         }
       },
       "fields": {
         "title": {
-          "en-US": "Angular"
+          "en-US": "Content Models"
+        },
+        "slug": {
+          "en-US": "content-models"
+        },
+        "content": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "The following are ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "data": {
+                      "uri": "https://www.contentful.com/help/content-modelling-basics/"
+                    },
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "content models",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " included with this starter.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Page",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "This content model represents a page on the site. ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "The starter will ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "data": {
+                      "uri": "https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/"
+                    },
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "programmatically create pages",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " for each page. ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Blog Post",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "This content model represents a blog post on the site. The starter will ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "data": {
+                      "uri": "https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/"
+                    },
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "programmatically create pages",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " for each blog post and lists ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "posts on the ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "data": {
+                      "uri": "/blog"
+                    },
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "Blog",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " page.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Navigation",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "This content model represents a navigation menu on the site and will contain references to the Page and Navigation Item models. The starter uses one navigation for the header. Multiple navigation menus (sidebar, footer, etc) can be supported by querying for specific navigations by slug. ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Navigation Item",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "This content model represents a navigation menu item. This Navigation content model can contain many Navigation Item references. Use this when you need to add a custom link to the navigation.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Image",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "This content model represents an image. It is a wrapper around an Asset to provide additional rendering options such as using an image as a link. This should be embedded in Page and Blog Post body fields.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Example of an image link:",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "embedded-entry-block",
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "1mm5yx2nn9DNkDoNJwHorI",
+                      "linkType": "Entry",
+                      "type": "Link"
+                    }
+                  }
+                },
+                "content": [
+                ]
+              },
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Asset",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Assets are media files.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "embedded-asset-block",
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "7hcnQ0BlWqETJC7HY1MBHJ",
+                      "type": "Link",
+                      "linkType": "Asset"
+                    }
+                  }
+                },
+                "content": [
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "5ttuZB9VJSuysWNrWNHDFC",
+        "type": "Entry",
+        "createdAt": "2021-11-06T18:48:59.940Z",
+        "updatedAt": "2021-11-06T21:52:59.758Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 16,
+        "publishedAt": "2021-11-06T21:52:59.758Z",
+        "firstPublishedAt": "2021-11-06T18:56:32.700Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 17,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "navigation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Header Navigation"
+        },
+        "slug": {
+          "en-US": "header-navigation"
+        },
+        "navigationItems": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3vI5PGgJopJvyQiKNVqIEO"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1YFulHs6DY1DH2B5nGC5Z4"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "1YFulHs6DY1DH2B5nGC5Z4",
+        "type": "Entry",
+        "createdAt": "2021-11-06T18:53:07.643Z",
+        "updatedAt": "2021-11-11T01:09:29.069Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2021-11-11T01:09:29.069Z",
+        "firstPublishedAt": "2021-11-06T18:53:15.378Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "navigationItem"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Blog"
+        },
+        "url": {
+          "en-US": "/blog"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "5HqKg33dF8t2whklExV1Uo",
+        "type": "Asset",
+        "createdAt": "2021-11-06T03:06:01.209Z",
+        "updatedAt": "2021-11-06T03:08:03.808Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-11-06T03:08:03.808Z",
+        "firstPublishedAt": "2021-11-06T03:08:03.808Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Gatsby Deploy Now"
+        },
+        "description": {
+          "en-US": ""
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/vcdjjbl2zaex/670sJuWlXnR9ycKRZy7doU/db380dd9025dadd9341558813c0ad790/angular.png",
+            "url": "//images.ctfassets.net/8a1mjxzik2le/5HqKg33dF8t2whklExV1Uo/b1fccfd9967c34d9176c1cbb5817ed57/deploynow.svg",
             "details": {
-              "size": 2385,
+              "size": 6741,
               "image": {
-                "width": 250,
-                "height": 250
+                "width": 251,
+                "height": 38
               }
             },
-            "fileName": "angular.png",
-            "contentType": "image/png"
+            "fileName": "deploynow.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "7y3QLJ3ZsfLwSmQF5YlhD9",
+        "type": "Asset",
+        "createdAt": "2021-11-06T14:44:30.793Z",
+        "updatedAt": "2021-11-06T14:44:54.727Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-11-06T14:44:54.727Z",
+        "firstPublishedAt": "2021-11-06T14:44:54.727Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Lion"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/8a1mjxzik2le/7y3QLJ3ZsfLwSmQF5YlhD9/292ef66de26b0a1d7215893c6c47b2ec/lion.jpg",
+            "details": {
+              "size": 437969,
+              "image": {
+                "width": 1920,
+                "height": 983
+              }
+            },
+            "fileName": "lion.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "id": "7hcnQ0BlWqETJC7HY1MBHJ",
+        "type": "Asset",
+        "createdAt": "2021-11-06T14:54:11.419Z",
+        "updatedAt": "2021-11-06T14:54:40.052Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-11-06T14:54:40.052Z",
+        "firstPublishedAt": "2021-11-06T14:54:40.052Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Resting Lion"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/8a1mjxzik2le/7hcnQ0BlWqETJC7HY1MBHJ/235508db3dddc730e468db0fc81a6811/resting-lion.jpg",
+            "details": {
+              "size": 820576,
+              "image": {
+                "width": 1920,
+                "height": 936
+              }
+            },
+            "fileName": "resting-lion.jpg",
+            "contentType": "image/jpeg"
           }
         }
       }
@@ -1259,13 +2779,13 @@
       "optional": false,
       "sys": {
         "type": "Locale",
-        "id": "6pJzAB2PAjdzQKMCdAtLA4",
+        "id": "5vaeS03bo0ZhNj8Afed2oX",
         "version": 1,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "vcdjjbl2zaex"
+            "id": "8a1mjxzik2le"
           }
         },
         "environment": {
@@ -1273,28 +2793,111 @@
             "type": "Link",
             "linkType": "Environment",
             "id": "master",
-            "uuid": "846b767e-4985-4c98-9e2a-0e2db32054c4"
+            "uuid": "981e7b92-9c1f-477b-9acd-0c6e2c94315d"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "createdAt": "2020-04-29T00:53:54Z",
+        "createdAt": "2021-11-06T00:52:14Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "0Zun4zv0YxXRe2QhNagYtD"
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "updatedAt": "2020-04-29T00:53:54Z"
+        "updatedAt": "2021-11-06T00:52:14Z"
       }
     }
   ],
-  "webhooks": [],
-  "roles": []
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "5vbe9V9tu4WIvQbxnPwwJR",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "8a1mjxzik2le"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "createdAt": "2021-11-06T00:52:14Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "4BSfn6CbfoEaSR9TFrRLqS"
+          }
+        },
+        "updatedAt": "2021-11-06T00:52:14Z"
+      }
+    }
+  ]
 }
