@@ -4,8 +4,13 @@ import Container from './container';
 import Link from './link';
 
 const Navigation = () => {
-  const { contentfulNavigation } = useStaticQuery(graphql`
+  const { contentfulNavigation, site } = useStaticQuery(graphql`
     query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
       contentfulNavigation(slug: { eq: "header-navigation" }) {
         navigationItems {
           __typename
@@ -38,7 +43,7 @@ const Navigation = () => {
             src="/icon.png"
             alt="Logo"
           />
-          Gatsby Contentful Starter
+          {site.siteMetadata.title}
         </Link>
       </div>
       <ul>
