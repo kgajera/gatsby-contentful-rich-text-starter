@@ -2,18 +2,26 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+const contentfulConfig = {
+  spaceId: process.env.CONTENTFUL_SPACE_ID,
+  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+};
+
+if (process.env.CONTENTFUL_HOST) {
+  contentfulConfig.host = process.env.CONTENTFUL_HOST;
+}
+if (process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN) {
+  contentfulConfig.accessToken = process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN;
+}
+
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.yourdomain.tld',
     title: 'Gatsby Contentful Starter',
   },
   plugins: [
     {
       resolve: 'gatsby-source-contentful',
-      options: {
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-      },
+      options: contentfulConfig,
     },
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
