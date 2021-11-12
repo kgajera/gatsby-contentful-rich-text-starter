@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Heading from './heading';
 import Layout from './layout';
 import RichText from './rich-text';
 import Seo from './seo';
@@ -7,7 +8,7 @@ const Page = ({ contentfulPage }) => {
   return (
     <Layout>
       <Seo title={contentfulPage.title} />
-      <h1 className="mb-4 text-4xl">{contentfulPage.title}</h1>
+      <Heading>{contentfulPage.title}</Heading>
       <RichText document={contentfulPage.content} />
     </Layout>
   );

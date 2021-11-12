@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
+import Heading from '../components/heading';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 
@@ -23,9 +24,9 @@ const BlogPage = () => {
   return (
     <Layout>
       <Seo title="Recent Posts" />
-      <h1 className="text-4xl mb-4 pb-4">Recent Posts</h1>
+      <Heading>Recent Posts</Heading>
       {allContentfulBlogPost.edges.map(({ node }) => (
-        <div className="mb-8" key={node.slug}>
+        <div className="my-4" key={node.slug}>
           <h2 className="my-2 text-2xl">
             <Link className="underline" to={`/blog/${node.slug}`}>
               {node.title}

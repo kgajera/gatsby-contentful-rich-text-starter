@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
+import Heading from '../components/heading';
 import Layout from '../components/layout';
 import RichText from '../components/rich-text';
 import Seo from '../components/seo';
@@ -11,7 +12,7 @@ const BlogPostTemplate = ({ data }) => {
         title={data.contentfulBlogPost.title}
         description={data.contentfulBlogPost.excerpt.excerpt}
       />
-      <h1 className="mb-4 text-4xl">{data.contentfulBlogPost.title}</h1>
+      <Heading>{data.contentfulBlogPost.title}</Heading>
       <RichText document={data.contentfulBlogPost.content} />
     </Layout>
   );
