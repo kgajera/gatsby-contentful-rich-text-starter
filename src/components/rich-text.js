@@ -33,7 +33,7 @@ const options = {
       <p className="my-4 text-base md:text-lg">{children}</p>
     ),
     [BLOCKS.OL_LIST]: (node, children) => (
-      <ol className="list-decimal	pl-10 whitespace-pre">{children}</ol>
+      <ol className="list-decimal pl-10 whitespace-pre">{children}</ol>
     ),
     [BLOCKS.UL_LIST]: (node, children) => (
       <ul className="list-disc pl-10 whitespace-pre">{children}</ul>
