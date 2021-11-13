@@ -8,34 +8,34 @@ const PageTemplate = ({ data }) => {
 
 export default PageTemplate;
 
+export const contentfulPageFragment = graphql`
+  fragment ContentfulPageFragment on ContentfulPage {
+    content {
+      raw
+      references {
+        __typename
+        ... on ContentfulAsset {
+          ...ContentfulAssetFragment
+        }
+        ... on ContentfulImage {
+          contentful_id
+          image {
+            ...ContentfulAssetFragment
+          }
+          title
+          url
+        }
+      }
+    }
+    slug
+    title
+  }
+`;
+
 export const query = graphql`
   query ($slug: String!) {
     contentfulPage(slug: { eq: $slug }) {
-      content {
-        raw
-        references {
-          __typename
-          ... on ContentfulAsset {
-            contentful_id
-            file {
-              url
-            }
-            title
-          }
-          ... on ContentfulImage {
-            contentful_id
-            image {
-              file {
-                url
-              }
-            }
-            title
-            url
-          }
-        }
-      }
-      slug
-      title
+      ...ContentfulPageFragment
     }
   }
 `;

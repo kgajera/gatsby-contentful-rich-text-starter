@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { renderRichText } from 'gatsby-source-contentful/rich-text';
 import { BLOCKS, INLINES, MARKS } from '@contentful/rich-text-types';
+import { renderRichText } from 'gatsby-source-contentful/rich-text';
+import Asset from './asset';
 import Heading from './heading';
 
 const options = {
@@ -43,16 +44,14 @@ const options = {
         case 'ContentfulImage':
           return (
             <a href={target.url}>
-              <img src={target.image.file.url} alt={target.title} />
+              <Asset {...target.image} />
             </a>
           );
         default:
           return null;
       }
     },
-    [BLOCKS.EMBEDDED_ASSET]: (node) => (
-      <img src={node.data.target?.file.url} alt={node.data.target?.title} />
-    ),
+    [BLOCKS.EMBEDDED_ASSET]: (node) => <Asset {...node.data.target} />,
     [INLINES.HYPERLINK]: (node, children) => (
       <a className="text-blue-500 underline" href={node.data.uri}>
         {children}

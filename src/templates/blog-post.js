@@ -28,10 +28,7 @@ export const query = graphql`
         references {
           __typename
           ... on ContentfulAsset {
-            contentful_id
-            file {
-              url
-            }
+            ...ContentfulAssetFragment
           }
         }
       }

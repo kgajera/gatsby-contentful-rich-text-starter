@@ -6,36 +6,10 @@ const IndexPage = () => {
   const { contentfulPage } = useStaticQuery(graphql`
     query {
       contentfulPage(slug: { eq: "about" }) {
-        content {
-          raw
-          references {
-            __typename
-            ... on ContentfulAsset {
-              contentful_id
-              file {
-                url
-              }
-              title
-            }
-            ... on ContentfulImage {
-              contentful_id
-              title
-              image {
-                file {
-                  url
-                }
-                title
-              }
-              url
-            }
-          }
-        }
-        slug
-        title
+        ...ContentfulPageFragment
       }
     }
   `);
-
   return <Page contentfulPage={contentfulPage} />;
 };
 
