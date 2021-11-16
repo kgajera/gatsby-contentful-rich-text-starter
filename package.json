@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-contentful-starter",
+  "name": "gatsby-contentful-rich-text-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "Gatsby Contentful Starter",
+  "description": "Gatsby Contentful Starter using the Rich Text field",
   "author": "Kishan Gajera",
   "keywords": [
     "gatsby",

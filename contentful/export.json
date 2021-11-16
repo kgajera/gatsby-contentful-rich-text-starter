@@ -1612,13 +1612,13 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": ") to create a new site, specifying the gatsby-contentful-starter:\n",
+                            "value": ") to create a new site, specifying the gatsby-contentful-rich-text-starter:\n",
                             "marks": [],
                             "data": {}
                           },
                           {
                             "nodeType": "text",
-                            "value": "gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-starter",
+                            "value": "gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-rich-text-starter",
                             "marks": [
                               {
                                 "type": "code"
@@ -1833,7 +1833,7 @@
                   {
                     "nodeType": "hyperlink",
                     "data": {
-                      "uri": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-starter"
+                      "uri": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-rich-text-starter"
                     },
                     "content": [
                       {
@@ -1950,7 +1950,7 @@
           }
         },
         "url": {
-          "en-US": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-starter"
+          "en-US": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-rich-text-starter"
         },
         "title": {
           "en-US": "Deploy Now!"

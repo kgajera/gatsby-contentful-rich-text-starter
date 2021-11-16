@@ -11,11 +11,11 @@ A Gatsby starter using [Contentful](https://www.contentful.com) (CMS) and [Tailw
 
 ## Getting Started
 
-1. Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the gatsby-contentful-starter.
+1. Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the gatsby-contentful-rich-text-starter.
 
    ```shell
-   # create a new Gatsby site using the gatsby-contentful-starter
-   gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-starter
+   # create a new Gatsby site using the gatsby-contentful-rich-text-starter
+   gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-rich-text-starter
    ```
 
 1. Navigate into your new site’s directory:
@@ -40,4 +40,4 @@ A Gatsby starter using [Contentful](https://www.contentful.com) (CMS) and [Tailw
 
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-starter)
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-rich-text-starter)
