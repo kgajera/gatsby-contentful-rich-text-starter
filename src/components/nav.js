@@ -40,7 +40,7 @@ const Navigation = () => {
         <Link className="flex items-center" to="/">
           <img
             className="max-h-8 inline-block mr-2"
-            src="/icon.png"
+            src="/gatsby-contentful.png"
             alt="Logo"
           />
           {site.siteMetadata.title}
