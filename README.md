@@ -5,7 +5,7 @@
   Gatsby Contentful Starter
 </h1>
 
-A Gatsby starter using [Contentful](https://www.contentful.com) (CMS) and [Tailwind](https://tailwindcss.com/) (CSS framework). In particular, this starter leverages Contentful's [Rich Text](https://www.contentful.com/developers/docs/concepts/rich-text/) field to render content.
+A Gatsby starter using [Contentful](https://www.contentful.com) (CMS) and [Tailwind](https://tailwindcss.com/) (CSS framework). In particular, this starter leverages Contentful's [Rich Text](https://www.contentful.com/developers/docs/concepts/rich-text/) field to render content and uses [Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography) for styling.
 
 ## Getting Started
 
