@@ -520,7 +520,7 @@
             "linkType": "Space"
           }
         },
-        "version": 17,
+        "version": 21,
         "createdAt": "2021-11-06T01:02:44.743Z",
         "createdBy": {
           "sys": {
@@ -529,7 +529,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-11-11T01:58:15.681Z",
+        "updatedAt": "2021-11-16T22:49:35.686Z",
         "updatedBy": {
           "sys": {
             "id": "4BSfn6CbfoEaSR9TFrRLqS",
@@ -622,7 +622,7 @@
             "linkType": "Space"
           }
         },
-        "version": 7,
+        "version": 11,
         "createdAt": "2021-11-06T01:02:45.098Z",
         "createdBy": {
           "sys": {
@@ -631,7 +631,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-11-11T01:58:17.147Z",
+        "updatedAt": "2021-11-16T22:49:35.662Z",
         "updatedBy": {
           "sys": {
             "id": "4BSfn6CbfoEaSR9TFrRLqS",
@@ -719,7 +719,7 @@
             "linkType": "Space"
           }
         },
-        "version": 5,
+        "version": 9,
         "createdAt": "2021-11-06T13:24:47.625Z",
         "createdBy": {
           "sys": {
@@ -728,7 +728,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-11-11T01:58:15.683Z",
+        "updatedAt": "2021-11-16T22:49:35.732Z",
         "updatedBy": {
           "sys": {
             "id": "4BSfn6CbfoEaSR9TFrRLqS",
@@ -819,7 +819,7 @@
             "linkType": "Space"
           }
         },
-        "version": 15,
+        "version": 19,
         "createdAt": "2021-11-06T18:44:00.507Z",
         "createdBy": {
           "sys": {
@@ -828,7 +828,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-11-11T01:58:15.175Z",
+        "updatedAt": "2021-11-16T22:49:35.757Z",
         "updatedBy": {
           "sys": {
             "id": "4BSfn6CbfoEaSR9TFrRLqS",
@@ -916,7 +916,7 @@
             "linkType": "Space"
           }
         },
-        "version": 15,
+        "version": 19,
         "createdAt": "2021-11-06T18:52:08.157Z",
         "createdBy": {
           "sys": {
@@ -925,7 +925,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-11-11T01:58:15.174Z",
+        "updatedAt": "2021-11-16T22:49:35.715Z",
         "updatedBy": {
           "sys": {
             "id": "4BSfn6CbfoEaSR9TFrRLqS",
@@ -1434,7 +1434,7 @@
         "id": "2i3FcrQg1TQGAajvavYxyo",
         "type": "Entry",
         "createdAt": "2021-11-06T01:02:49.563Z",
-        "updatedAt": "2021-11-11T02:02:54.975Z",
+        "updatedAt": "2021-11-21T17:51:28.812Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1442,8 +1442,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 30,
-        "publishedAt": "2021-11-11T02:02:54.975Z",
+        "publishedVersion": 48,
+        "publishedAt": "2021-11-21T17:51:28.812Z",
         "firstPublishedAt": "2021-11-06T01:02:50.239Z",
         "createdBy": {
           "sys": {
@@ -1459,8 +1459,8 @@
             "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "publishedCounter": 14,
-        "version": 31,
+        "publishedCounter": 17,
+        "version": 49,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1490,7 +1490,6 @@
             "content": [
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -1500,9 +1499,6 @@
                   },
                   {
                     "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.contentful.com"
-                    },
                     "content": [
                       {
                         "nodeType": "text",
@@ -1510,7 +1506,10 @@
                         "marks": [],
                         "data": {}
                       }
-                    ]
+                    ],
+                    "data": {
+                      "uri": "https://www.contentful.com"
+                    }
                   },
                   {
                     "nodeType": "text",
@@ -1520,9 +1519,6 @@
                   },
                   {
                     "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://tailwindcss.com/"
-                    },
                     "content": [
                       {
                         "nodeType": "text",
@@ -1530,25 +1526,19 @@
                         "marks": [],
                         "data": {}
                       }
-                    ]
+                    ],
+                    "data": {
+                      "uri": "https://tailwindcss.com/"
+                    }
                   },
                   {
                     "nodeType": "text",
-                    "value": ". ",
-                    "marks": [],
-                    "data": {}
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": "In particular, this starter leverages Contentful's ",
+                    "value": ". In particular, this starter leverages Contentful's ",
                     "marks": [],
                     "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.contentful.com/developers/docs/concepts/rich-text/"
-                    },
                     "content": [
                       {
                         "nodeType": "text",
@@ -1556,7 +1546,10 @@
                         "marks": [],
                         "data": {}
                       }
-                    ]
+                    ],
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/concepts/rich-text/"
+                    }
                   },
                   {
                     "nodeType": "text",
@@ -1564,11 +1557,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -1576,19 +1569,17 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "ordered-list",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "list-item",
-                    "data": {},
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
                         "content": [
                           {
                             "nodeType": "text",
@@ -1598,9 +1589,6 @@
                           },
                           {
                             "nodeType": "hyperlink",
-                            "data": {
-                              "uri": "https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli"
-                            },
                             "content": [
                               {
                                 "nodeType": "text",
@@ -1608,7 +1596,10 @@
                                 "marks": [],
                                 "data": {}
                               }
-                            ]
+                            ],
+                            "data": {
+                              "uri": "https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli"
+                            }
                           },
                           {
                             "nodeType": "text",
@@ -1626,17 +1617,17 @@
                             ],
                             "data": {}
                           }
-                        ]
+                        ],
+                        "data": {}
                       }
-                    ]
+                    ],
+                    "data": {}
                   },
                   {
                     "nodeType": "list-item",
-                    "data": {},
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
                         "content": [
                           {
                             "nodeType": "text",
@@ -1654,17 +1645,17 @@
                             ],
                             "data": {}
                           }
-                        ]
+                        ],
+                        "data": {}
                       }
-                    ]
+                    ],
+                    "data": {}
                   },
                   {
                     "nodeType": "list-item",
-                    "data": {},
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
                         "content": [
                           {
                             "nodeType": "text",
@@ -1674,9 +1665,6 @@
                           },
                           {
                             "nodeType": "hyperlink",
-                            "data": {
-                              "uri": "https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/"
-                            },
                             "content": [
                               {
                                 "nodeType": "text",
@@ -1684,7 +1672,10 @@
                                 "marks": [],
                                 "data": {}
                               }
-                            ]
+                            ],
+                            "data": {
+                              "uri": "https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/"
+                            }
                           },
                           {
                             "nodeType": "text",
@@ -1704,31 +1695,93 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": ", with the following contents:\n",
+                            "value": ", with the following variables:",
                             "marks": [],
+                            "data": {}
+                          }
+                        ],
+                        "data": {}
+                      },
+                      {
+                        "nodeType": "unordered-list",
+                        "content": [
+                          {
+                            "nodeType": "list-item",
+                            "content": [
+                              {
+                                "nodeType": "paragraph",
+                                "content": [
+                                  {
+                                    "nodeType": "text",
+                                    "value": "CONTENTFUL_SPACE_ID",
+                                    "marks": [
+                                      {
+                                        "type": "code"
+                                      }
+                                    ],
+                                    "data": {}
+                                  }
+                                ],
+                                "data": {}
+                              }
+                            ],
                             "data": {}
                           },
                           {
-                            "nodeType": "text",
-                            "value": "CONTENTFUL_SPACE_ID=\nCONTENTFUL_ACCESS_TOKEN=\nCONTENTFUL_MANAGEMENT_TOKEN=",
-                            "marks": [
+                            "nodeType": "list-item",
+                            "content": [
                               {
-                                "type": "code"
+                                "nodeType": "paragraph",
+                                "content": [
+                                  {
+                                    "nodeType": "text",
+                                    "value": "CONTENTFUL_ACCESS_TOKEN",
+                                    "marks": [
+                                      {
+                                        "type": "code"
+                                      }
+                                    ],
+                                    "data": {}
+                                  }
+                                ],
+                                "data": {}
+                              }
+                            ],
+                            "data": {}
+                          },
+                          {
+                            "nodeType": "list-item",
+                            "content": [
+                              {
+                                "nodeType": "paragraph",
+                                "content": [
+                                  {
+                                    "nodeType": "text",
+                                    "value": "CONTENTFUL_MANAGEMENT_TOKEN",
+                                    "marks": [
+                                      {
+                                        "type": "code"
+                                      }
+                                    ],
+                                    "data": {}
+                                  }
+                                ],
+                                "data": {}
                               }
                             ],
                             "data": {}
                           }
-                        ]
+                        ],
+                        "data": {}
                       }
-                    ]
+                    ],
+                    "data": {}
                   },
                   {
                     "nodeType": "list-item",
-                    "data": {},
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
                         "content": [
                           {
                             "nodeType": "text",
@@ -1738,7 +1791,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": "yarn contentful-import",
+                            "value": "npm run contentful-import",
                             "marks": [
                               {
                                 "type": "code"
@@ -1748,21 +1801,21 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " to import content types",
+                            "value": " to import content types.",
                             "marks": [],
                             "data": {}
                           }
-                        ]
+                        ],
+                        "data": {}
                       }
-                    ]
+                    ],
+                    "data": {}
                   },
                   {
                     "nodeType": "list-item",
-                    "data": {},
                     "content": [
                       {
                         "nodeType": "paragraph",
-                        "data": {},
                         "content": [
                           {
                             "nodeType": "text",
@@ -1772,7 +1825,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": "yarn develop",
+                            "value": "npm run develop",
                             "marks": [
                               {
                                 "type": "code"
@@ -1802,15 +1855,17 @@
                             "marks": [],
                             "data": {}
                           }
-                        ]
+                        ],
+                        "data": {}
                       }
-                    ]
+                    ],
+                    "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -1818,11 +1873,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -1832,9 +1887,6 @@
                   },
                   {
                     "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-rich-text-starter"
-                    },
                     "content": [
                       {
                         "nodeType": "text",
@@ -1842,7 +1894,10 @@
                         "marks": [],
                         "data": {}
                       }
-                    ]
+                    ],
+                    "data": {
+                      "uri": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-starter"
+                    }
                   },
                   {
                     "nodeType": "text",
@@ -1850,10 +1905,12 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "embedded-entry-block",
+                "content": [],
                 "data": {
                   "target": {
                     "sys": {
@@ -1862,12 +1919,10 @@
                       "linkType": "Entry"
                     }
                   }
-                },
-                "content": []
+                }
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -1875,7 +1930,8 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               }
             ]
           }
@@ -1950,7 +2006,7 @@
           }
         },
         "url": {
-          "en-US": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-rich-text-starter"
+          "en-US": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-starter"
         },
         "title": {
           "en-US": "Deploy Now!"
@@ -1972,7 +2028,7 @@
         "id": "3vI5PGgJopJvyQiKNVqIEO",
         "type": "Entry",
         "createdAt": "2021-11-06T13:51:11.320Z",
-        "updatedAt": "2021-11-07T14:14:46.881Z",
+        "updatedAt": "2021-11-16T23:01:16.736Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1980,8 +2036,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 179,
-        "publishedAt": "2021-11-07T14:14:46.881Z",
+        "publishedVersion": 181,
+        "publishedAt": "2021-11-16T23:01:16.736Z",
         "firstPublishedAt": "2021-11-06T13:51:53.113Z",
         "createdBy": {
           "sys": {
@@ -1997,8 +2053,8 @@
             "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "publishedCounter": 22,
-        "version": 180,
+        "publishedCounter": 23,
+        "version": 182,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2028,7 +2084,6 @@
             "content": [
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2038,9 +2093,6 @@
                   },
                   {
                     "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.contentful.com/help/content-modelling-basics/"
-                    },
                     "content": [
                       {
                         "nodeType": "text",
@@ -2048,7 +2100,10 @@
                         "marks": [],
                         "data": {}
                       }
-                    ]
+                    ],
+                    "data": {
+                      "uri": "https://www.contentful.com/help/content-modelling-basics/"
+                    }
                   },
                   {
                     "nodeType": "text",
@@ -2056,11 +2111,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2068,29 +2123,20 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "This content model represents a page on the site. ",
-                    "marks": [],
-                    "data": {}
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": "The starter will ",
+                    "value": "This content model represents a page on the site. The starter will ",
                     "marks": [],
                     "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/"
-                    },
                     "content": [
                       {
                         "nodeType": "text",
@@ -2098,7 +2144,10 @@
                         "marks": [],
                         "data": {}
                       }
-                    ]
+                    ],
+                    "data": {
+                      "uri": "https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/"
+                    }
                   },
                   {
                     "nodeType": "text",
@@ -2106,11 +2155,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2118,11 +2167,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2132,9 +2181,6 @@
                   },
                   {
                     "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/"
-                    },
                     "content": [
                       {
                         "nodeType": "text",
@@ -2142,25 +2188,19 @@
                         "marks": [],
                         "data": {}
                       }
-                    ]
+                    ],
+                    "data": {
+                      "uri": "https://www.gatsbyjs.com/docs/programmatically-create-pages-from-data/"
+                    }
                   },
                   {
                     "nodeType": "text",
-                    "value": " for each blog post and lists ",
-                    "marks": [],
-                    "data": {}
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": "posts on the ",
+                    "value": " for each blog post and lists posts on the ",
                     "marks": [],
                     "data": {}
                   },
                   {
                     "nodeType": "hyperlink",
-                    "data": {
-                      "uri": "/blog"
-                    },
                     "content": [
                       {
                         "nodeType": "text",
@@ -2168,7 +2208,10 @@
                         "marks": [],
                         "data": {}
                       }
-                    ]
+                    ],
+                    "data": {
+                      "uri": "/blog"
+                    }
                   },
                   {
                     "nodeType": "text",
@@ -2176,11 +2219,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2188,23 +2231,23 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "This content model represents a navigation menu on the site and will contain references to the Page and Navigation Item models. The starter uses one navigation for the header. Multiple navigation menus (sidebar, footer, etc) can be supported by querying for specific navigations by slug. ",
+                    "value": "This content model represents a navigation menu on the site and will contain references to the Page and Navigation Item models. The starter uses one navigation for the header.",
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2212,11 +2255,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2224,11 +2267,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2236,11 +2279,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2248,11 +2291,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2260,10 +2303,12 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "embedded-entry-block",
+                "content": [],
                 "data": {
                   "target": {
                     "sys": {
@@ -2272,12 +2317,10 @@
                       "type": "Link"
                     }
                   }
-                },
-                "content": []
+                }
               },
               {
                 "nodeType": "heading-2",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2285,11 +2328,11 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2297,10 +2340,12 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               },
               {
                 "nodeType": "embedded-asset-block",
+                "content": [],
                 "data": {
                   "target": {
                     "sys": {
@@ -2309,12 +2354,10 @@
                       "linkType": "Asset"
                     }
                   }
-                },
-                "content": []
+                }
               },
               {
                 "nodeType": "paragraph",
-                "data": {},
                 "content": [
                   {
                     "nodeType": "text",
@@ -2322,7 +2365,8 @@
                     "marks": [],
                     "data": {}
                   }
-                ]
+                ],
+                "data": {}
               }
             ]
           }
@@ -2751,7 +2795,7 @@
   "webhooks": [
     {
       "name": "Gatsby Builds",
-      "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/99f9ffc8-446c-433f-9cb4-a4f0160f5591",
+      "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/9c390756-aa81-43bb-9885-b3d445c7263d",
       "httpBasicUsername": null,
       "topics": [
         "ContentType.publish",
@@ -2781,7 +2825,7 @@
             "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "createdAt": "2021-11-11T01:58:15Z",
+        "createdAt": "2021-11-16T22:49:34Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -2789,7 +2833,7 @@
             "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "updatedAt": "2021-11-11T01:58:15Z"
+        "updatedAt": "2021-11-16T22:49:34Z"
       },
       "headers": []
     }

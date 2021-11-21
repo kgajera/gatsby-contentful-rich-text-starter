@@ -30,9 +30,9 @@ A Gatsby starter using [Contentful](https://www.contentful.com) (CMS) and [Tailw
    CONTENTFUL_MANAGEMENT_TOKEN=
    ```
 
-1. Run `yarn contentful-import` to import content types
+1. Run `npm run contentful-import` to import content types.
 
-1. Run `yarn develop` to start the development server. Your site is now running at `http://localhost:8000`!
+1. Run `npm run develop` to start the development server. Your site is now running at `http://localhost:8000`!
 
 ## Deploy
 

@@ -26,13 +26,13 @@ const BlogPage = () => {
       <Seo title="Recent Posts" />
       <Heading>Recent Posts</Heading>
       {allContentfulBlogPost.edges.map(({ node }) => (
-        <div className="my-4" key={node.slug}>
-          <h2 className="my-2 text-2xl">
+        <div className="my-8" key={node.slug}>
+          <h2 className="text-2xl font-bold mb-3">
             <Link className="underline" to={`/blog/${node.slug}`}>
               {node.title}
             </Link>
           </h2>
-          <p className="text-lg">{node.excerpt?.excerpt}</p>
+          <p>{node.excerpt?.excerpt}</p>
         </div>
       ))}
     </Layout>

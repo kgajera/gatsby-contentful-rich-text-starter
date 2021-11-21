@@ -31,6 +31,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.4.0",
     "contentful-import": "^8.2.24",
     "postcss": "^8.3.11",
