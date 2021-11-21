@@ -1434,7 +1434,7 @@
         "id": "2i3FcrQg1TQGAajvavYxyo",
         "type": "Entry",
         "createdAt": "2021-11-06T01:02:49.563Z",
-        "updatedAt": "2021-11-21T17:51:28.812Z",
+        "updatedAt": "2021-11-21T18:32:16.681Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1442,8 +1442,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 48,
-        "publishedAt": "2021-11-21T17:51:28.812Z",
+        "publishedVersion": 56,
+        "publishedAt": "2021-11-21T18:32:16.681Z",
         "firstPublishedAt": "2021-11-06T01:02:50.239Z",
         "createdBy": {
           "sys": {
@@ -1459,8 +1459,8 @@
             "id": "4BSfn6CbfoEaSR9TFrRLqS"
           }
         },
-        "publishedCounter": 17,
-        "version": 49,
+        "publishedCounter": 20,
+        "version": 57,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1485,432 +1485,449 @@
         },
         "content": {
           "en-US": {
-            "nodeType": "document",
             "data": {},
             "content": [
               {
-                "nodeType": "paragraph",
+                "data": {},
                 "content": [
                   {
-                    "nodeType": "text",
-                    "value": "A Gatsby starter using ",
+                    "data": {},
                     "marks": [],
-                    "data": {}
+                    "value": "A Gatsby starter using ",
+                    "nodeType": "text"
                   },
                   {
-                    "nodeType": "hyperlink",
-                    "content": [
-                      {
-                        "nodeType": "text",
-                        "value": "Contentful",
-                        "marks": [],
-                        "data": {}
-                      }
-                    ],
                     "data": {
                       "uri": "https://www.contentful.com"
-                    }
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": " and ",
-                    "marks": [],
-                    "data": {}
-                  },
-                  {
-                    "nodeType": "hyperlink",
+                    },
                     "content": [
                       {
-                        "nodeType": "text",
-                        "value": "Tailwind",
+                        "data": {},
                         "marks": [],
-                        "data": {}
+                        "value": "Contentful",
+                        "nodeType": "text"
                       }
                     ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": " and ",
+                    "nodeType": "text"
+                  },
+                  {
                     "data": {
                       "uri": "https://tailwindcss.com/"
-                    }
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": ". In particular, this starter leverages Contentful's ",
-                    "marks": [],
-                    "data": {}
-                  },
-                  {
-                    "nodeType": "hyperlink",
+                    },
                     "content": [
                       {
-                        "nodeType": "text",
-                        "value": "Rich Text",
+                        "data": {},
                         "marks": [],
-                        "data": {}
+                        "value": "Tailwind",
+                        "nodeType": "text"
                       }
                     ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": ". In particular, this starter leverages Contentful's ",
+                    "nodeType": "text"
+                  },
+                  {
                     "data": {
                       "uri": "https://www.contentful.com/developers/docs/concepts/rich-text/"
-                    }
-                  },
-                  {
-                    "nodeType": "text",
-                    "value": " field to render content.",
-                    "marks": [],
-                    "data": {}
-                  }
-                ],
-                "data": {}
-              },
-              {
-                "nodeType": "heading-2",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Getting Started",
-                    "marks": [],
-                    "data": {}
-                  }
-                ],
-                "data": {}
-              },
-              {
-                "nodeType": "ordered-list",
-                "content": [
-                  {
-                    "nodeType": "list-item",
+                    },
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {},
+                        "marks": [],
+                        "value": "Rich Text",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": " field to render content and uses ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://github.com/tailwindlabs/tailwindcss-typography"
+                    },
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Tailwind Typography",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": " for styling.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Getting Started",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
                         "content": [
                           {
-                            "nodeType": "text",
-                            "value": "Use the Gatsby CLI (",
+                            "data": {},
                             "marks": [],
-                            "data": {}
+                            "value": "Use the Gatsby CLI (",
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "hyperlink",
-                            "content": [
-                              {
-                                "nodeType": "text",
-                                "value": "install instructions",
-                                "marks": [],
-                                "data": {}
-                              }
-                            ],
                             "data": {
                               "uri": "https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli"
-                            }
-                          },
-                          {
-                            "nodeType": "text",
-                            "value": ") to create a new site, specifying the gatsby-contentful-rich-text-starter:\n",
-                            "marks": [],
-                            "data": {}
-                          },
-                          {
-                            "nodeType": "text",
-                            "value": "gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-rich-text-starter",
-                            "marks": [
-                              {
-                                "type": "code"
-                              }
-                            ],
-                            "data": {}
-                          }
-                        ],
-                        "data": {}
-                      }
-                    ],
-                    "data": {}
-                  },
-                  {
-                    "nodeType": "list-item",
-                    "content": [
-                      {
-                        "nodeType": "paragraph",
-                        "content": [
-                          {
-                            "nodeType": "text",
-                            "value": "Navigate into your new site's directory:\n",
-                            "marks": [],
-                            "data": {}
-                          },
-                          {
-                            "nodeType": "text",
-                            "value": "cd my-contentful-starter",
-                            "marks": [
-                              {
-                                "type": "code"
-                              }
-                            ],
-                            "data": {}
-                          }
-                        ],
-                        "data": {}
-                      }
-                    ],
-                    "data": {}
-                  },
-                  {
-                    "nodeType": "list-item",
-                    "content": [
-                      {
-                        "nodeType": "paragraph",
-                        "content": [
-                          {
-                            "nodeType": "text",
-                            "value": "Create a new ",
-                            "marks": [],
-                            "data": {}
-                          },
-                          {
-                            "nodeType": "hyperlink",
+                            },
                             "content": [
                               {
-                                "nodeType": "text",
-                                "value": "environment file",
+                                "data": {},
                                 "marks": [],
-                                "data": {}
+                                "value": "install instructions",
+                                "nodeType": "text"
                               }
                             ],
+                            "nodeType": "hyperlink"
+                          },
+                          {
+                            "data": {},
+                            "marks": [],
+                            "value": ") to create a new site, specifying the gatsby-contentful-rich-text-starter:\n",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {},
+                            "marks": [
+                              {
+                                "type": "code"
+                              }
+                            ],
+                            "value": "gatsby new my-contentful-starter https://github.com/kgajera/gatsby-contentful-rich-text-starter",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "content": [
+                          {
+                            "data": {},
+                            "marks": [],
+                            "value": "Navigate into your new site's directory:\n",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {},
+                            "marks": [
+                              {
+                                "type": "code"
+                              }
+                            ],
+                            "value": "cd my-contentful-starter",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "content": [
+                          {
+                            "data": {},
+                            "marks": [],
+                            "value": "Create a new ",
+                            "nodeType": "text"
+                          },
+                          {
                             "data": {
                               "uri": "https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/"
-                            }
+                            },
+                            "content": [
+                              {
+                                "data": {},
+                                "marks": [],
+                                "value": "environment file",
+                                "nodeType": "text"
+                              }
+                            ],
+                            "nodeType": "hyperlink"
                           },
                           {
-                            "nodeType": "text",
-                            "value": ", ",
+                            "data": {},
                             "marks": [],
-                            "data": {}
+                            "value": ", ",
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "text",
-                            "value": ".env.development",
+                            "data": {},
                             "marks": [
                               {
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "value": ".env.development",
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "text",
-                            "value": ", with the following variables:",
+                            "data": {},
                             "marks": [],
-                            "data": {}
+                            "value": ", with the following variables:",
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {}
+                        "nodeType": "paragraph"
                       },
                       {
-                        "nodeType": "unordered-list",
+                        "data": {},
                         "content": [
                           {
-                            "nodeType": "list-item",
+                            "data": {},
                             "content": [
                               {
-                                "nodeType": "paragraph",
+                                "data": {},
                                 "content": [
                                   {
-                                    "nodeType": "text",
+                                    "data": {},
+                                    "marks": [
+                                      {
+                                        "type": "code"
+                                      }
+                                    ],
                                     "value": "CONTENTFUL_SPACE_ID",
+                                    "nodeType": "text"
+                                  }
+                                ],
+                                "nodeType": "paragraph"
+                              }
+                            ],
+                            "nodeType": "list-item"
+                          },
+                          {
+                            "data": {},
+                            "content": [
+                              {
+                                "data": {},
+                                "content": [
+                                  {
+                                    "data": {},
                                     "marks": [
                                       {
                                         "type": "code"
                                       }
                                     ],
-                                    "data": {}
-                                  }
-                                ],
-                                "data": {}
-                              }
-                            ],
-                            "data": {}
-                          },
-                          {
-                            "nodeType": "list-item",
-                            "content": [
-                              {
-                                "nodeType": "paragraph",
-                                "content": [
-                                  {
-                                    "nodeType": "text",
                                     "value": "CONTENTFUL_ACCESS_TOKEN",
-                                    "marks": [
-                                      {
-                                        "type": "code"
-                                      }
-                                    ],
-                                    "data": {}
+                                    "nodeType": "text"
                                   }
                                 ],
-                                "data": {}
+                                "nodeType": "paragraph"
                               }
                             ],
-                            "data": {}
+                            "nodeType": "list-item"
                           },
                           {
-                            "nodeType": "list-item",
+                            "data": {},
                             "content": [
                               {
-                                "nodeType": "paragraph",
+                                "data": {},
                                 "content": [
                                   {
-                                    "nodeType": "text",
-                                    "value": "CONTENTFUL_MANAGEMENT_TOKEN",
+                                    "data": {},
                                     "marks": [
                                       {
                                         "type": "code"
                                       }
                                     ],
-                                    "data": {}
+                                    "value": "CONTENTFUL_MANAGEMENT_TOKEN",
+                                    "nodeType": "text"
                                   }
                                 ],
-                                "data": {}
+                                "nodeType": "paragraph"
                               }
                             ],
-                            "data": {}
+                            "nodeType": "list-item"
                           }
                         ],
-                        "data": {}
+                        "nodeType": "unordered-list"
                       }
                     ],
-                    "data": {}
+                    "nodeType": "list-item"
                   },
                   {
-                    "nodeType": "list-item",
+                    "data": {},
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {},
                         "content": [
                           {
-                            "nodeType": "text",
-                            "value": "Run ",
+                            "data": {},
                             "marks": [],
-                            "data": {}
+                            "value": "Run ",
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "text",
+                            "data": {},
+                            "marks": [
+                              {
+                                "type": "code"
+                              }
+                            ],
                             "value": "npm run contentful-import",
-                            "marks": [
-                              {
-                                "type": "code"
-                              }
-                            ],
-                            "data": {}
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "text",
-                            "value": " to import content types.",
+                            "data": {},
                             "marks": [],
-                            "data": {}
+                            "value": " to import content types.",
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {}
+                        "nodeType": "paragraph"
                       }
                     ],
-                    "data": {}
+                    "nodeType": "list-item"
                   },
                   {
-                    "nodeType": "list-item",
+                    "data": {},
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {},
                         "content": [
                           {
-                            "nodeType": "text",
+                            "data": {},
+                            "marks": [],
                             "value": "Run ",
-                            "marks": [],
-                            "data": {}
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "text",
+                            "data": {},
+                            "marks": [
+                              {
+                                "type": "code"
+                              }
+                            ],
                             "value": "npm run develop",
-                            "marks": [
-                              {
-                                "type": "code"
-                              }
-                            ],
-                            "data": {}
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "text",
+                            "data": {},
+                            "marks": [],
                             "value": " to start the development server. Your site is now running at ",
-                            "marks": [],
-                            "data": {}
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "text",
-                            "value": "http://localhost:8000",
+                            "data": {},
                             "marks": [
                               {
                                 "type": "code"
                               }
                             ],
-                            "data": {}
+                            "value": "http://localhost:8000",
+                            "nodeType": "text"
                           },
                           {
-                            "nodeType": "text",
-                            "value": "!",
+                            "data": {},
                             "marks": [],
-                            "data": {}
+                            "value": "!",
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {}
+                        "nodeType": "paragraph"
                       }
                     ],
-                    "data": {}
+                    "nodeType": "list-item"
                   }
                 ],
-                "data": {}
+                "nodeType": "ordered-list"
               },
               {
-                "nodeType": "heading-2",
+                "data": {},
                 "content": [
                   {
-                    "nodeType": "text",
+                    "data": {},
+                    "marks": [],
                     "value": "Deploy",
-                    "marks": [],
-                    "data": {}
+                    "nodeType": "text"
                   }
                 ],
-                "data": {}
+                "nodeType": "heading-2"
               },
               {
-                "nodeType": "paragraph",
+                "data": {},
                 "content": [
                   {
-                    "nodeType": "text",
-                    "value": "Deploy this starter with one click on Gatsby Cloud:",
+                    "data": {},
                     "marks": [],
-                    "data": {}
+                    "value": "Deploy this starter with one click on Gatsby Cloud:",
+                    "nodeType": "text"
                   },
                   {
-                    "nodeType": "hyperlink",
-                    "content": [
-                      {
-                        "nodeType": "text",
-                        "value": "",
-                        "marks": [],
-                        "data": {}
-                      }
-                    ],
                     "data": {
                       "uri": "https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/kgajera/gatsby-contentful-starter"
-                    }
+                    },
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
                   },
                   {
-                    "nodeType": "text",
-                    "value": "",
+                    "data": {},
                     "marks": [],
-                    "data": {}
+                    "value": "",
+                    "nodeType": "text"
                   }
                 ],
-                "data": {}
+                "nodeType": "paragraph"
               },
               {
-                "nodeType": "embedded-entry-block",
-                "content": [],
                 "data": {
                   "target": {
                     "sys": {
@@ -1919,21 +1936,24 @@
                       "linkType": "Entry"
                     }
                   }
-                }
+                },
+                "content": [],
+                "nodeType": "embedded-entry-block"
               },
               {
-                "nodeType": "paragraph",
+                "data": {},
                 "content": [
                   {
-                    "nodeType": "text",
-                    "value": "",
+                    "data": {},
                     "marks": [],
-                    "data": {}
+                    "value": "",
+                    "nodeType": "text"
                   }
                 ],
-                "data": {}
+                "nodeType": "paragraph"
               }
-            ]
+            ],
+            "nodeType": "document"
           }
         }
       }
