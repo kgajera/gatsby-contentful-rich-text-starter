@@ -9,6 +9,7 @@ const Footer = () => {
         className="font-medium underline"
         href="https://github.com/kgajera/gatsby-contentful-rich-text-starter"
         target="_blank"
+        rel="noreferrer"
       >
         Gatsby Contentful Starter
       </a>
